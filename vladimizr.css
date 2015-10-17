@@ -1,0 +1,19 @@
+body {
+  background: #eee;
+}
+
+#title {
+  color: #565656;
+  font-family: "Monaco";
+  font-size: 12px;
+  margin: 0 0 5px 0;
+  text-align: center;
+}
+
+#input {
+  background: #fff;
+  border: 1px solid #ddd;
+  height: 358px;
+  resize: none;
+  width: 378px;
+}
