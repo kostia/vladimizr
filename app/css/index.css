@@ -1,18 +1,28 @@
 body {
-  background: #eee;
-}
-
-#title {
-  color: #565656;
-  font-family: "Monaco";
-  font-size: 12px;
-  margin: 0 0 5px 0;
-  text-align: center;
+  background: #14b8de;
 }
 
 #input {
-  background: #fff;
-  border: 1px solid #ddd;
+  background: #14b8de;
+  border: none;
   height: 338px;
   width: 378px;
+  color: #fff;
+  font-size: 20px;
+  margin-top: 22px;
+}
+
+#input:focus {
+  outline: none;
+}
+
+#quit {
+  background: transparent url('../img/close.png') no-repeat 4px 4px;
+  background-size: 24px 24px;
+  height: 32px;
+  width: 32px;
+  position: absolute;
+  right: 6px;
+  top: 3px;
+  cursor: pointer;
 }
