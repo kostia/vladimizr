@@ -1,4 +1,5 @@
 var remote = require('remote');
+var ipc = require('ipc');
 
 var map = {
   "A"   : "А",
@@ -87,4 +88,9 @@ document.addEventListener('keyup', function(event) {
     remote.getCurrentWindow().hide();
     return false;
   }
+});
+
+document.getElementById('quit').addEventListener('click', function() {
+  ipc.send('close-main-window');
+  return false;
 });

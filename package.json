@@ -14,6 +14,7 @@
   },
   "main": "main.js",
   "scripts": {
+    "start": "electron .",
     "build": "electron-packager . Vladimizr --platform=darwin --arch=x64 --version=0.30.3 --ignore=node_modules/electron --icon=Icon.icns --overwrite"
   }
 }

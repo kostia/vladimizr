@@ -9,7 +9,6 @@ for transliterating from latin to russian.
 
 - Type in the latin text, then press `Shift+Enter`.
 - Press `Escape` to hide the app.
-- Press `Cmd+Q` to quit the app.
 
 ## Development
 
