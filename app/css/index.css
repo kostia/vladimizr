@@ -1,3 +1,8 @@
+@font-face {
+  font-family: LobsterRegular;
+  src: url(../fonts/Lobster-Regular.ttf);
+}
+
 body {
   background: #14b8de;
 }
@@ -9,7 +14,7 @@ body {
   width: 378px;
   color: #fff;
   font-size: 20px;
-  margin-top: 22px;
+  margin: 10px 0 0 10px;
 }
 
 #input:focus {
@@ -23,6 +28,12 @@ body {
   width: 32px;
   position: absolute;
   right: 6px;
-  top: 3px;
+  top: 12px;
   cursor: pointer;
+}
+
+#title {
+  font-family: LobsterRegular;
+  font-size: 33px;
+  color: #fff;
 }
