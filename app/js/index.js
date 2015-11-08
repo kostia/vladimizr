@@ -94,3 +94,8 @@ document.getElementById('quit').addEventListener('click', function() {
   ipc.send('close-main-window');
   return false;
 });
+
+document.getElementById('open-github').addEventListener('click', function() {
+  require('shell').openExternal('https://github.com/kostia/vladimizr');
+  return false;
+});

@@ -3,14 +3,20 @@
   src: url(../fonts/Lobster-Regular.ttf);
 }
 
+@font-face {
+  font-family: SourceSansPro;
+  src: url(../fonts/SourceSansPro-Regular.ttf);
+}
+
 body {
   background: #14b8de;
 }
 
 #input {
+  font-family: SourceSansPro;
   background: #14b8de;
   border: none;
-  height: 338px;
+  height: 238px;
   width: 378px;
   color: #fff;
   font-size: 20px;
@@ -36,4 +42,25 @@ body {
   font-family: LobsterRegular;
   font-size: 33px;
   color: #fff;
+  border-bottom: 1px solid #0baed4;
+  padding-bottom: 8px;
+}
+
+#help {
+  border-top: 1px solid #0baed4;
+  padding: 13px;
+  font-size: 13px;
+  color: #abefff;
+  font-family: SourceSansPro;
+}
+
+#help div {
+  margin-top: 8px;
+  font-size: 12px;
+  color: #0395b7;
+}
+
+#help div span {
+  text-decoration: underline;
+  cursor: pointer;
 }
